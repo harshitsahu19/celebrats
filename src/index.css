@@ -11,20 +11,20 @@
 
 @font-face {
     font-family: 'Gilroy';
-    src: url('/fonts/Gilroy-FREE/Gilroy-Light.otf') format('opentype');
+    src: url('../public/fonts/Gilroy-FREE/Gilroy-Light.otf') format('opentype');
     font-weight: 300;
     font-style: normal;
 }
 @font-face {
     font-family: 'Gilroy';
-    src: url('/fonts/Gilroy-FREE/Gilroy-ExtraBold.otf') format('opentype');
+    src: url('../public/fonts/Gilroy-FREE/Gilroy-ExtraBold.otf') format('opentype');
     font-weight: 800;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Seranide';
-    src: url('/fonts/seranidefreetrial-r9kdw.otf') format('opentype');
+    src: url('../public/fonts/seranidefreetrial-r9kdw.otf') format('opentype');
     font-weight: normal;
     font-style: normal;
 }
