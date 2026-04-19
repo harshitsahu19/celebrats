@@ -1,3 +1,12 @@
+/* Reset only within component scope */
+.evs-service-container * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Playfair+Display:wght@400;600;700&display=swap');
+/* Removed duplicate Google Fonts import. Use global import in src/index.css */
+}
 
 
 /* Reset only within component scope */
