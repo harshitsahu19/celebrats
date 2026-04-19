@@ -1,3 +1,6 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,500;14..32,600;14..32,700;14..32,800&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400&display=swap');
+
 @font-face {
     font-family: 'Kholic';
     src: url('../fonts/kholic.otf') format('truetype');
@@ -21,9 +24,15 @@ body {
     height: 100%;
 }
 
-body {
-    font-family: 'Gilroy', sans-serif;
+h1, h2, h3, h4, h5, h6, .evs-hero-title, .evs-section-title, .evs-service-name, .evs-mosaic-title, .evs-cta-title {
+    font-family: 'Playfair Display', serif !important;
+}
+body, html, * {
+    font-family: 'Inter', sans-serif !important;
+}
 
+h1, h2, h3, h4, h5, h6, .evs-hero-title, .evs-section-title, .evs-service-name, .evs-mosaic-title, .evs-cta-title {
+    font-family: 'Playfair Display', serif;
 }
 
 :root {
@@ -109,12 +118,22 @@ body {
     margin: 0;
 }
 
+/* Navigation link base */
 .celeb-navLink {
     color: var(--golden) !important;
     font-weight: 600;
     padding: 8px 16px !important;
     border-radius: 4px;
     transition: all 0.3s ease;
+    text-decoration: none;
+    border-bottom: 2px solid transparent;
+}
+
+/* Active nav link underline and color */
+.celeb-active-link {
+    color: #631549 !important;
+    border-bottom: 2px solid #631549;
+    font-weight: 700;
 }
 /* 
 .celeb-navLink:hover {

@@ -1,0 +1,133 @@
+{
+  "services": [
+    {
+      "id": "floral_arrangements",
+      "name": "Floral Arrangements",
+      "desc": "Breathtaking floral designs that transform any venue into a paradise. From intimate centerpieces to grand floral walls.",
+      "price": "Starting at $800",
+      "priceIcon": "fas fa-seedling",
+      "features": ["Custom bouquets", "Centerpieces", "Floral walls", "Ceiling installations"],
+      "image1": "https://images.pexels.com/photos/6944400/pexels-photo-6944400.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "image2": "https://images.pexels.com/photos/1181555/pexels-photo-1181555.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "reverse": false,
+      "exploreText": "Explore floral magic"
+    },
+    {
+      "id": "lighting_design",
+      "name": "Lighting & Atmosphere",
+      "desc": "Create the perfect mood with dynamic lighting, gobo projections, fairy lights, and dramatic uplighting that wows your guests.",
+      "price": "Starting at $1,200",
+      "priceIcon": "fas fa-lightbulb",
+      "features": ["Uplighting", "Gobo projections", "Fairy lights", "LED dance floor"],
+      "image1": "https://images.pexels.com/photos/1749308/pexels-photo-1749308.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "image2": "https://images.pexels.com/photos/3184418/pexels-photo-3184418.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "reverse": true,
+      "exploreText": "See lighting designs"
+    },
+    {
+      "id": "balloon_decor",
+      "name": "Balloon Styling",
+      "desc": "Whimsical balloon arches, garlands, and backdrops that bring joy and color to any celebration. Custom designs for every theme.",
+      "price": "Starting at $500",
+      "priceIcon": "fas fa-balloon",
+      "features": ["Balloon arches", "Garlands", "Confetti balloons", "Organic shapes"],
+      "image1": "https://images.pexels.com/photos/1181406/pexels-photo-1181406.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "image2": "https://images.pexels.com/photos/1919237/pexels-photo-1919237.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "reverse": false,
+      "exploreText": "View balloon art"
+    },
+    {
+      "id": "furniture_rental",
+      "name": "Luxury Furniture Rental",
+      "desc": "Elegant furniture pieces, lounge setups, and statement pieces that elevate your event's style and comfort.",
+      "price": "Starting at $1,500",
+      "priceIcon": "fas fa-couch",
+      "features": ["Lounge furniture", "Dinner tables", "Statement pieces", "Delivery & setup"],
+      "image1": "https://images.pexels.com/photos/2373236/pexels-photo-2373236.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "image2": "https://images.pexels.com/photos/2405565/pexels-photo-2405565.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "reverse": true,
+      "exploreText": "Browse furniture"
+    },
+    {
+      "id": "backdrop_design",
+      "name": "Custom Backdrops & Stages",
+      "desc": "Instagram-worthy backdrops, photo walls, and stage designs that become the highlight of your event.",
+      "price": "Starting at $900",
+      "priceIcon": "fas fa-images",
+      "features": ["Photo walls", "Stage design", "Green walls", "Themed backdrops"],
+      "image1": "https://images.pexels.com/photos/2253870/pexels-photo-2253870.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "image2": "https://images.pexels.com/photos/1024993/pexels-photo-1024993.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "reverse": false,
+      "exploreText": "See backdrop ideas"
+    },
+    {
+      "id": "table_settings",
+      "name": "Table Settings & Linens",
+      "desc": "Exquisite tableware, premium linens, napkin art, and place settings that impress every guest.",
+      "price": "Starting at $25/table",
+      "priceIcon": "fas fa-utensil-spoon",
+      "features": ["Premium linens", "Charger plates", "Napkin folding", "Table runners"],
+      "image1": "https://images.pexels.com/photos/853168/pexels-photo-853168.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "image2": "https://images.pexels.com/photos/6694500/pexels-photo-6694500.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "reverse": true,
+      "exploreText": "View table designs"
+    }
+  ],
+  "gallery": [
+    {
+      "img": "https://images.pexels.com/photos/6944400/pexels-photo-6944400.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "caption": "Floral installations"
+    },
+    {
+      "img": "https://images.pexels.com/photos/1749308/pexels-photo-1749308.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "caption": "Dramatic lighting"
+    },
+    {
+      "img": "https://images.pexels.com/photos/1181406/pexels-photo-1181406.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "caption": "Balloon art"
+    },
+    {
+      "img": "https://images.pexels.com/photos/2373236/pexels-photo-2373236.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "caption": "Luxury furniture"
+    },
+    {
+      "img": "https://images.pexels.com/photos/2253870/pexels-photo-2253870.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "caption": "Photo backdrops"
+    },
+    {
+      "img": "https://images.pexels.com/photos/853168/pexels-photo-853168.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "caption": "Elegant table settings"
+    },
+    {
+      "img": "https://images.pexels.com/photos/261102/pexels-photo-261102.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "caption": "Ceiling decor"
+    },
+    {
+      "img": "https://images.pexels.com/photos/1919237/pexels-photo-1919237.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "caption": "Themed decorations"
+    }
+  ],
+  "hero": {
+    "image": "https://images.pexels.com/photos/6944400/pexels-photo-6944400.jpeg?auto=compress&cs=tinysrgb&w=1600",
+    "alt": "event decoration floral design",
+    "title": "Transform Your Venue",
+    "subtitle": "Stunning decorations that create unforgettable atmospheres for every occasion."
+  },
+  "sectionHeader": {
+    "badge": "Decoration Services",
+    "title": "Bringing your vision to life",
+    "description": "From intimate gatherings to grand celebrations, we design decorations that leave lasting impressions."
+  },
+  "cta": {
+    "title": "Ready to transform your event space?",
+    "description": "Share your vision with us — we'll create a custom decoration proposal within 48h.",
+    "buttonText": "Request decoration consultation",
+    "buttonIcon": "fas fa-palette"
+  },
+  "toast": {
+    "exploreMessage": "🎨 {serviceName} details — Let's decorate your dream event!",
+    "consultationMessage": "✨ Decoration consultation request sent! Our design team will reach out within 24h.",
+    "mosaicMessage": "🎭 Let us create similar decor magic for your event — contact our design studio.",
+    "durationMs": 2600
+  }
+}

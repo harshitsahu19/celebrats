@@ -1,0 +1,133 @@
+{
+  "services": [
+    {
+      "id": "corporate_event",
+      "name": "Corporate Event Planning",
+      "desc": "Flawlessly executed corporate events from conferences to product launches. Professional, polished, and impressive.",
+      "price": "Custom quote",
+      "priceIcon": "fas fa-briefcase",
+      "features": ["Venue sourcing", "AV production", "Speaker management", "On-site coordination"],
+      "image1": "https://images.pexels.com/photos/3184418/pexels-photo-3184418.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "image2": "https://images.pexels.com/photos/1749308/pexels-photo-1749308.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "reverse": false,
+      "exploreText": "Plan your event"
+    },
+    {
+      "id": "product_launch",
+      "name": "Product Launches",
+      "desc": "Generate buzz and excitement with spectacular product launches that captivate media and customers alike.",
+      "price": "Custom quote",
+      "priceIcon": "fas fa-rocket",
+      "features": ["Venue branding", "Media coordination", "Live demonstrations", "Press kits"],
+      "image1": "https://images.pexels.com/photos/2253870/pexels-photo-2253870.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "image2": "https://images.pexels.com/photos/1024993/pexels-photo-1024993.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "reverse": true,
+      "exploreText": "Launch your product"
+    },
+    {
+      "id": "conference_management",
+      "name": "Conference Management",
+      "desc": "End-to-end conference planning for 50 to 5,000 attendees. Seamless logistics, top-tier production, and memorable experiences.",
+      "price": "Custom quote",
+      "priceIcon": "fas fa-users",
+      "features": ["Registration", "Breakout sessions", "Keynote staging", "Sponsor management"],
+      "image1": "https://images.pexels.com/photos/6944400/pexels-photo-6944400.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "image2": "https://images.pexels.com/photos/261102/pexels-photo-261102.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "reverse": false,
+      "exploreText": "Manage conference"
+    },
+    {
+      "id": "corporate_gala",
+      "name": "Corporate Galas & Awards",
+      "desc": "Elegant award ceremonies, annual galas, and holiday parties that celebrate achievements and boost morale.",
+      "price": "Custom quote",
+      "priceIcon": "fas fa-trophy",
+      "features": ["Red carpet", "Award presentation", "Fine dining", "Entertainment"],
+      "image1": "https://images.pexels.com/photos/2373236/pexels-photo-2373236.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "image2": "https://images.pexels.com/photos/2405565/pexels-photo-2405565.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "reverse": true,
+      "exploreText": "Plan your gala"
+    },
+    {
+      "id": "team_building",
+      "name": "Team Building Events",
+      "desc": "Engaging offsites, retreats, and team activities that strengthen bonds and boost company culture.",
+      "price": "Starting at $150/person",
+      "priceIcon": "fas fa-handshake",
+      "features": ["Activity design", "Venue booking", "Catering", "Facilitation"],
+      "image1": "https://images.pexels.com/photos/1181406/pexels-photo-1181406.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "image2": "https://images.pexels.com/photos/1919237/pexels-photo-1919237.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "reverse": false,
+      "exploreText": "Build your team"
+    },
+    {
+      "id": "virtual_hybrid",
+      "name": "Virtual & Hybrid Events",
+      "desc": "Seamless virtual and hybrid events with professional streaming, interactive features, and global reach.",
+      "price": "Starting at $5,000",
+      "priceIcon": "fas fa-video",
+      "features": ["Live streaming", "Interactive tools", "Breakout rooms", "Analytics"],
+      "image1": "https://images.pexels.com/photos/853168/pexels-photo-853168.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "image2": "https://images.pexels.com/photos/6694500/pexels-photo-6694500.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "reverse": true,
+      "exploreText": "Go virtual"
+    }
+  ],
+  "gallery": [
+    {
+      "img": "https://images.pexels.com/photos/3184418/pexels-photo-3184418.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "caption": "Corporate conferences"
+    },
+    {
+      "img": "https://images.pexels.com/photos/1749308/pexels-photo-1749308.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "caption": "Stage production"
+    },
+    {
+      "img": "https://images.pexels.com/photos/2253870/pexels-photo-2253870.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "caption": "Product launches"
+    },
+    {
+      "img": "https://images.pexels.com/photos/1024993/pexels-photo-1024993.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "caption": "Corporate galas"
+    },
+    {
+      "img": "https://images.pexels.com/photos/6944400/pexels-photo-6944400.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "caption": "Award ceremonies"
+    },
+    {
+      "img": "https://images.pexels.com/photos/261102/pexels-photo-261102.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "caption": "Team building"
+    },
+    {
+      "img": "https://images.pexels.com/photos/2373236/pexels-photo-2373236.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "caption": "VIP events"
+    },
+    {
+      "img": "https://images.pexels.com/photos/853168/pexels-photo-853168.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "caption": "Corporate networking"
+    }
+  ],
+  "hero": {
+    "image": "https://images.pexels.com/photos/3184418/pexels-photo-3184418.jpeg?auto=compress&cs=tinysrgb&w=1600",
+    "alt": "corporate event conference",
+    "title": "Elevate Your Corporate Events",
+    "subtitle": "Professional, polished, and perfectly executed — events that impress clients and inspire teams."
+  },
+  "sectionHeader": {
+    "badge": "Corporate Services",
+    "title": "Where business meets excellence",
+    "description": "From intimate board meetings to large-scale conferences, we deliver flawless corporate experiences."
+  },
+  "cta": {
+    "title": "Ready to elevate your next corporate event?",
+    "description": "Share your requirements — we'll create a comprehensive proposal within 48h.",
+    "buttonText": "Request corporate consultation",
+    "buttonIcon": "fas fa-chart-line"
+  },
+  "toast": {
+    "exploreMessage": "💼 {serviceName} details — Let's elevate your corporate event!",
+    "consultationMessage": "🏢 Corporate consultation request sent! Our event specialists will reach out within 24h.",
+    "mosaicMessage": "🌟 Let us create similar corporate magic for your next event — contact our business events team.",
+    "durationMs": 2600
+  }
+}

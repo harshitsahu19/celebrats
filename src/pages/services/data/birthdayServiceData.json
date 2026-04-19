@@ -1,0 +1,133 @@
+{
+  "services": [
+    {
+      "id": "birthday_planning",
+      "name": "Birthday Party Planning",
+      "desc": "Full-service birthday planning from intimate family dinners to lavish milestone celebrations. Stress-free and memorable.",
+      "price": "Starting at $1,800",
+      "priceIcon": "fas fa-birthday-cake",
+      "features": ["Venue selection", "Theme development", "Vendor coordination", "Day-of management"],
+      "image1": "https://images.pexels.com/photos/1181406/pexels-photo-1181406.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "image2": "https://images.pexels.com/photos/1919237/pexels-photo-1919237.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "reverse": false,
+      "exploreText": "Plan your party"
+    },
+    {
+      "id": "kids_birthday",
+      "name": "Kids Birthday Extravaganza",
+      "desc": "Magical themed parties with characters, games, bounce houses, and entertainment that kids will remember forever.",
+      "price": "Starting at $1,200",
+      "priceIcon": "fas fa-child",
+      "features": ["Themed decor", "Entertainment", "Party favors", "Cake & treats"],
+      "image1": "https://images.pexels.com/photos/2253870/pexels-photo-2253870.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "image2": "https://images.pexels.com/photos/1024993/pexels-photo-1024993.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "reverse": true,
+      "exploreText": "Explore kids parties"
+    },
+    {
+      "id": "milestone_birthday",
+      "name": "Milestone Celebrations",
+      "desc": "Sweet 16, 21st, 30th, 50th — make every milestone unforgettable with elegant themes and premium experiences.",
+      "price": "Starting at $2,500",
+      "priceIcon": "fas fa-star",
+      "features": ["Custom themes", "Photo & video", "Entertainment", "Premium decor"],
+      "image1": "https://images.pexels.com/photos/6944400/pexels-photo-6944400.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "image2": "https://images.pexels.com/photos/261102/pexels-photo-261102.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "reverse": false,
+      "exploreText": "Celebrate milestones"
+    },
+    {
+      "id": "surprise_party",
+      "name": "Surprise Party Planning",
+      "desc": "Expertly planned surprise parties that will leave your loved one speechless. Seamless coordination from start to reveal.",
+      "price": "Starting at $1,500",
+      "priceIcon": "fas fa-gift",
+      "features": ["Stealth planning", "Guest coordination", "Reveal moment", "Full setup"],
+      "image1": "https://images.pexels.com/photos/2373236/pexels-photo-2373236.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "image2": "https://images.pexels.com/photos/2405565/pexels-photo-2405565.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "reverse": true,
+      "exploreText": "Plan a surprise"
+    },
+    {
+      "id": "birthday_catering",
+      "name": "Birthday Catering",
+      "desc": "Delicious menus customized for birthday celebrations. From casual buffets to formal dinners and dessert tables.",
+      "price": "Starting at $30/person",
+      "priceIcon": "fas fa-utensils",
+      "features": ["Custom menu", "Birthday cake", "Beverages", "Dessert table"],
+      "image1": "https://images.pexels.com/photos/853168/pexels-photo-853168.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "image2": "https://images.pexels.com/photos/6694500/pexels-photo-6694500.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "reverse": false,
+      "exploreText": "View catering"
+    },
+    {
+      "id": "birthday_entertainment",
+      "name": "Birthday Entertainment",
+      "desc": "DJs, live music, magicians, face painters, photo booths — entertainment tailored to your guest list and theme.",
+      "price": "Starting at $800",
+      "priceIcon": "fas fa-music",
+      "features": ["DJ services", "Live performers", "Party games", "Photo booth"],
+      "image1": "https://images.pexels.com/photos/1749308/pexels-photo-1749308.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "image2": "https://images.pexels.com/photos/3184418/pexels-photo-3184418.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "reverse": true,
+      "exploreText": "Book entertainment"
+    }
+  ],
+  "gallery": [
+    {
+      "img": "https://images.pexels.com/photos/1181406/pexels-photo-1181406.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "caption": "Birthday cakes"
+    },
+    {
+      "img": "https://images.pexels.com/photos/1919237/pexels-photo-1919237.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "caption": "Party decorations"
+    },
+    {
+      "img": "https://images.pexels.com/photos/2253870/pexels-photo-2253870.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "caption": "Kids party fun"
+    },
+    {
+      "img": "https://images.pexels.com/photos/1024993/pexels-photo-1024993.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "caption": "Sweet 16 celebrations"
+    },
+    {
+      "img": "https://images.pexels.com/photos/6944400/pexels-photo-6944400.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "caption": "Balloon decorations"
+    },
+    {
+      "img": "https://images.pexels.com/photos/261102/pexels-photo-261102.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "caption": "Party entertainment"
+    },
+    {
+      "img": "https://images.pexels.com/photos/853168/pexels-photo-853168.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "caption": "Dessert tables"
+    },
+    {
+      "img": "https://images.pexels.com/photos/6694500/pexels-photo-6694500.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "caption": "Surprise moments"
+    }
+  ],
+  "hero": {
+    "image": "https://images.pexels.com/photos/1181406/pexels-photo-1181406.jpeg?auto=compress&cs=tinysrgb&w=1600",
+    "alt": "birthday celebration decorations",
+    "title": "Celebrate Another Trip Around the Sun",
+    "subtitle": "Every birthday deserves to be extraordinary — from intimate gatherings to epic parties."
+  },
+  "sectionHeader": {
+    "badge": "Birthday Services",
+    "title": "Making every year unforgettable",
+    "description": "Whether it's your 1st or 100th, we create birthday celebrations filled with joy and lasting memories."
+  },
+  "cta": {
+    "title": "Ready to throw an amazing birthday party?",
+    "description": "Tell us your vision — we'll plan a birthday celebration that everyone will talk about.",
+    "buttonText": "Request birthday consultation",
+    "buttonIcon": "fas fa-birthday-cake"
+  },
+  "toast": {
+    "exploreMessage": "🎂 {serviceName} details — Let's plan your amazing birthday celebration!",
+    "consultationMessage": "🎈 Birthday consultation request sent! Our party specialists will reach out within 24h.",
+    "mosaicMessage": "🎉 Let us create similar birthday magic for your special day — contact our party planners.",
+    "durationMs": 2600
+  }
+}

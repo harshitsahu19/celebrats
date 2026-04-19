@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from 'react';
-import { Link as ScrollLink } from 'react-scroll';
-import { Link } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 import logo from '../assets/img/logo.jpg';
 
 const Navbar = () => {
+  const location = useLocation();
   const [isSticky, setIsSticky] = useState(false);
   const [showTopBar, setShowTopBar] = useState(true);
 
@@ -20,6 +20,7 @@ const Navbar = () => {
   return (
     <>
       {/* Top Bar */}
+
       {showTopBar && (
         <div className="celeb-topBar" id="celebTopBar">
           <div className="container">
@@ -39,7 +40,6 @@ const Navbar = () => {
         </div>
       )}
 
-      {/* Navigation */}
       <nav className={`navbar navbar-expand-lg celeb-navBar ${isSticky ? 'celeb-sticky' : ''}`} id="celebNavBar">
         <div className="container">
           {/* Logo */}
@@ -61,15 +61,20 @@ const Navbar = () => {
           <div className="collapse navbar-collapse">
             <ul className="navbar-nav mx-auto mb-2 mb-lg-0">
               <li className="nav-item">
-                <ScrollLink
-                  to="wedding-hero"
-                  smooth={true}
-                  duration={500}
-                  offset={-80}
-                  className="nav-link celeb-navLink"
+                <Link
+                  className={`nav-link celeb-navLink${location.pathname === '/home' ? ' celeb-active-link' : ''}`}
+                  to="/home"
                 >
                   Home
-                </ScrollLink>
+                </Link>
+              </li>
+              <li className="nav-item">
+                <Link
+                  className={`nav-link celeb-navLink${location.pathname === '/service' ? ' celeb-active-link' : ''}`}
+                  to="/service"
+                >
+                  Services
+                </Link>
               </li>
               <li className="nav-item">
                 <Link className="nav-link celeb-navLink" to="/aboutUs">
@@ -77,26 +82,11 @@ const Navbar = () => {
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link celeb-navLink" to="/service">
-                  Services
-                </Link>
-              </li>
-              <li className="nav-item">
                 <Link className="nav-link celeb-navLink" to="/contactUs">
                   Contact Us
                 </Link>
               </li>
-              <li className="nav-item">
-                <ScrollLink
-                  to="gallery-section"
-                  smooth={true}
-                  duration={500}
-                  offset={-80}
-                  className="nav-link celeb-navLink"
-                >
-                  Our Work
-                </ScrollLink>
-              </li>
+              {/* Remove Our Work ScrollLink or convert to Link if needed */}
             </ul>
             {/* Quote button */}
             <a href="tel:+918899887766" className="celeb-quote-wrapper-btn">
@@ -116,35 +106,27 @@ const Navbar = () => {
         </div>
         <div className="offcanvas-body">
           <div className="d-flex flex-column">
-            <ScrollLink
-              to="wedding-hero"
-              smooth={true}
-              duration={500}
-              offset={-80}
-              className="nav-link celeb-navLink mb-3"
+            <Link
+              className={`nav-link celeb-navLink mb-3${location.pathname === '/home' ? ' celeb-active-link' : ''}`}
+              to="/home"
               data-bs-dismiss="offcanvas"
             >
               Home
-            </ScrollLink>
+            </Link>
             <Link className="nav-link celeb-navLink mb-3" to="/aboutUs" data-bs-dismiss="offcanvas">
               About Us
             </Link>
-            <Link className="nav-link celeb-navLink mb-3" to="/service" data-bs-dismiss="offcanvas">
+            <Link
+              className={`nav-link celeb-navLink mb-3${location.pathname === '/service' ? ' celeb-active-link' : ''}`}
+              to="/service"
+              data-bs-dismiss="offcanvas"
+            >
               Services
             </Link>
             <Link className="nav-link celeb-navLink mb-3" to="/contactUs" data-bs-dismiss="offcanvas">
               Contact Us
             </Link>
-            <ScrollLink
-              to="gallery-section"
-              smooth={true}
-              duration={500}
-              offset={-80}
-              className="nav-link celeb-navLink mb-3"
-              data-bs-dismiss="offcanvas"
-            >
-              Our Work
-            </ScrollLink>
+            {/* Remove Our Work ScrollLink or convert to Link if needed */}
             <a href="tel:+918899887766" className="btn celeb-quoteBtn" data-bs-dismiss="offcanvas">
               Get Quote
             </a>

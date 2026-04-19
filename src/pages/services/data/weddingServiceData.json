@@ -1,0 +1,141 @@
+{
+  "services": [
+    {
+      "id": "wedding_planning",
+      "name": "Wedding Planning",
+      "desc": "Full-scale orchestration — from dream venues to floral fantasies. We turn your love story into a cinematic celebration with zero stress.",
+      "price": "Starting at $4,200",
+      "priceIcon": "fas fa-ring",
+      "features": ["Venue scouting", "Floral design", "Guest management", "Day-of coordination"],
+      "image1": "https://images.pexels.com/photos/2253870/pexels-photo-2253870.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "image2": "https://images.pexels.com/photos/261102/pexels-photo-261102.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "reverse": false,
+      "exploreText": "Discover wedding magic"
+    },
+    {
+      "id": "wedding_photography",
+      "name": "Wedding Photography & Cinematography",
+      "desc": "Capture every tear, laugh, and dance move. Our lens tells your unique story with artistry and emotion that lasts forever.",
+      "price": "Starting at $3,500",
+      "priceIcon": "fas fa-camera",
+      "features": ["Pre-wedding shoot", "Full-day coverage", "Drone shots", "Highlight film"],
+      "image1": "https://images.pexels.com/photos/1024993/pexels-photo-1024993.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "image2": "https://images.pexels.com/photos/2253870/pexels-photo-2253870.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "reverse": true,
+      "exploreText": "View photography packages"
+    },
+    {
+      "id": "wedding_decor",
+      "name": "Wedding Decor & Floral Design",
+      "desc": "From intimate garden ceremonies to grand ballroom receptions — bespoke floral arrangements, lighting, and decor that reflect your personality.",
+      "price": "Starting at $2,500",
+      "priceIcon": "fas fa-leaf",
+      "features": ["Bridal bouquet", "Centerpieces", "Mandap decor", "Lighting design"],
+      "image1": "https://images.pexels.com/photos/1181555/pexels-photo-1181555.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "image2": "https://images.pexels.com/photos/6944400/pexels-photo-6944400.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "reverse": false,
+      "exploreText": "Explore decor styles"
+    },
+    {
+      "id": "destination_wedding",
+      "name": "Destination Wedding",
+      "desc": "Say \"I do\" in Tuscany, Bali, Santorini, or Goa. Full destination management, travel coordination, and opulent design.",
+      "price": "Bespoke pricing",
+      "priceIcon": "fas fa-globe",
+      "features": ["Global venues", "Travel concierge", "Legal assistance", "Guest accommodations"],
+      "image1": "https://images.pexels.com/photos/2373236/pexels-photo-2373236.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "image2": "https://images.pexels.com/photos/2405565/pexels-photo-2405565.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "reverse": true,
+      "exploreText": "Explore destination weddings"
+    },
+    {
+      "id": "wedding_catering",
+      "name": "Wedding Catering & Cake Design",
+      "desc": "Exquisite menus crafted by award-winning chefs. From multi-course dinners to themed food stations and stunning wedding cakes.",
+      "price": "Starting at $45/person",
+      "priceIcon": "fas fa-utensils",
+      "features": ["Custom menu", "Tasting session", "Wedding cake", "Beverage service"],
+      "image1": "https://images.pexels.com/photos/1181406/pexels-photo-1181406.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "image2": "https://images.pexels.com/photos/1919237/pexels-photo-1919237.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "reverse": false,
+      "exploreText": "View catering options"
+    },
+    {
+      "id": "wedding_entertainment",
+      "name": "Wedding Entertainment",
+      "desc": "Live bands, DJs, cultural performers, and interactive experiences that keep your guests dancing all night long.",
+      "price": "Starting at $1,200",
+      "priceIcon": "fas fa-music",
+      "features": ["Live music", "DJ services", "Dance troupe", "Photo booth"],
+      "image1": "https://images.pexels.com/photos/1749308/pexels-photo-1749308.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "image2": "https://images.pexels.com/photos/6694500/pexels-photo-6694500.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "reverse": true,
+      "exploreText": "Book entertainment"
+    }
+  ],
+  "gallery": [
+    {
+      "img": "https://images.pexels.com/photos/2253870/pexels-photo-2253870.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "caption": "Dream wedding venues"
+    },
+    {
+      "img": "https://images.pexels.com/photos/1024993/pexels-photo-1024993.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "caption": "Romantic ceremonies"
+    },
+    {
+      "img": "https://images.pexels.com/photos/6944400/pexels-photo-6944400.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "caption": "Floral fantasies"
+    },
+    {
+      "img": "https://images.pexels.com/photos/261102/pexels-photo-261102.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "caption": "Reception magic"
+    },
+    {
+      "img": "https://images.pexels.com/photos/1181555/pexels-photo-1181555.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "caption": "Luxury table settings"
+    }
+  ],
+  "hero": {
+    "image": "https://images.pexels.com/photos/1181555/pexels-photo-1181555.jpeg?auto=compress&cs=tinysrgb&w=1600",
+    "alt": "luxury wedding floral design",
+    "title": "Timeless Wedding Celebrations",
+    "subtitle": "Where love stories become unforgettable journeys — every detail, perfected for your special day."
+  },
+  "sectionHeader": {
+    "badge": "Wedding Services",
+    "title": "Creating your perfect wedding story",
+    "description": "From engagement to honeymoon, we craft every moment with heart, precision, and artistic excellence."
+  },
+  "cta": {
+    "title": "Ready to plan your dream wedding?",
+    "description": "Tell us your vision — we'll create a bespoke wedding proposal within 48h.",
+    "buttonText": "Request wedding consultation",
+    "buttonIcon": "fas fa-calendar-alt"
+  },
+  "weddingPackages": {
+    "title": "Wedding Packages",
+    "packages": [
+      {
+        "name": "Essentials",
+        "price": "$4,200",
+        "features": ["Venue coordination", "Basic decor", "Day-of coordination", "Vendor management"]
+      },
+      {
+        "name": "Premium",
+        "price": "$8,500",
+        "features": ["Everything in Essentials", "Floral design", "Photography", "Catering coordination", "Guest management"]
+      },
+      {
+        "name": "Luxury",
+        "price": "Custom",
+        "features": ["Full planning", "Destination options", "Premium decor", "Entertainment", "Honeymoon planning", "Concierge service"]
+      }
+    ]
+  },
+  "toast": {
+    "exploreMessage": "💍 {serviceName} details — Let's plan your perfect wedding day!",
+    "consultationMessage": "🎉 Wedding consultation request sent! Our wedding specialists will reach out within 24h.",
+    "mosaicMessage": "💒 Let us create similar wedding magic for your special day — contact our wedding design studio.",
+    "durationMs": 2600
+  }
+}
