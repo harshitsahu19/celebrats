@@ -4,6 +4,7 @@ import './allService.css';
 import Navbar from '../../components/Navbar';
 import Footer from '../../components/Footer';
 
+// Removed icon imports (lucide-react)
 const AllServices = () => {
   // Service data array for better maintainability
   const services = [
@@ -12,7 +13,7 @@ const AllServices = () => {
       title: 'Wedding Orchestration',
       description: 'Full‑service wedding planning & design — from intimate elopements to grand celebrations. We curate every detail with emotional intelligence and flawless execution. Our team manages venue selection, vendor coordination, timeline creation, and on-the-day direction so you can live in the moment.',
       price: 'Bespoke pricing (average $8,500 - $25,000)',
-      priceIcon: 'fa-ring',
+      priceIcon: 'ring',
       tags: ['Venue curation', 'Floral artistry', 'Guest journey', 'Month‑of coordination', 'Vendor management', 'Rehearsal dinner'],
       images: [
         'https://images.pexels.com/photos/2253870/pexels-photo-2253870.jpeg?auto=compress&cs=tinysrgb&w=600',
@@ -25,7 +26,7 @@ const AllServices = () => {
       title: 'Event Design & Décor',
       description: 'Immersive environments, avant-garde floral installations, and atmospheric lighting. We transform venues into sensory stories. Our design team creates mood boards, 3D renderings, and handles full décor production including custom backdrops, centerpieces, lounge furniture, and specialty lighting designs.',
       price: 'From $2,500 (full event styling)',
-      priceIcon: 'fa-palette',
+      priceIcon: 'palette',
       tags: ['Spatial design', 'Custom furniture', 'Lighting concepts', 'Drapery & props', 'Floral installations', 'Rentals sourcing'],
       images: [
         'https://images.pexels.com/photos/1470176/pexels-photo-1470176.jpeg?auto=compress&cs=tinysrgb&w=600',
@@ -38,7 +39,7 @@ const AllServices = () => {
       title: 'Milestone Birthdays',
       description: 'Extraordinary celebrations for every age — from whimsical children\'s parties to sophisticated 50th galas. Tailored themes, immersive entertainment, and personalized touches. We handle everything from custom invitations and themed decor to entertainment booking, catering, and party favors.',
       price: 'Starting at $1,800 (up to 50 guests)',
-      priceIcon: 'fa-birthday-cake',
+      priceIcon: 'cake',
       tags: ['Theme development', 'Entertainment', 'Custom desserts', 'Photo experiences', 'Party favors', 'Kids activities'],
       images: [
         'https://images.pexels.com/photos/1181406/pexels-photo-1181406.jpeg?auto=compress&cs=tinysrgb&w=600',
@@ -51,7 +52,7 @@ const AllServices = () => {
       title: 'Corporate Experiences',
       description: 'Seamless execution for conferences, product launches, award galas, and team offsites. We elevate brand presence with high‑impact production. Our corporate division manages venue sourcing, AV production, speaker coordination, attendee registration, catering, and post-event reporting.',
       price: 'Custom quote based on scale',
-      priceIcon: 'fa-building',
+      priceIcon: 'building2',
       tags: ['AV & staging', 'Brand integration', 'VIP hospitality', 'Logistics mastery', 'Speaker management', 'Live streaming'],
       images: [
         'https://images.pexels.com/photos/3184418/pexels-photo-3184418.jpeg?auto=compress&cs=tinysrgb&w=600',
@@ -64,7 +65,7 @@ const AllServices = () => {
       title: 'Destination & Luxury',
       description: 'Curated celebrations in the world\'s most breathtaking locations. Full destination management, travel coordination, and opulent design. We handle venue scouting across Europe, Asia, Caribbean, and beyond, plus travel logistics for guests, legal paperwork, and local vendor partnerships.',
       price: 'Bespoke pricing (starting at $12,000)',
-      priceIcon: 'fa-globe',
+      priceIcon: 'globe',
       tags: ['Global venues', 'Travel concierge', 'Legal support', 'Multilingual team', 'Site visits', 'Guest accommodations'],
       images: [
         'https://images.pexels.com/photos/2405565/pexels-photo-2405565.jpeg?auto=compress&cs=tinysrgb&w=600',
@@ -77,7 +78,7 @@ const AllServices = () => {
       title: 'Social Soirées',
       description: 'Engagement parties, baby showers, bridal luncheons, and intimate gatherings — crafted with warmth, elegance, and personalization. We specialize in creating Instagram-worthy setups with custom backdrops, dessert tables, floral arrangements, and curated gift stations.',
       price: 'Starting at $1,200',
-      priceIcon: 'fa-champagne-glasses',
+      priceIcon: 'glasses',
       tags: ['Art direction', 'Curated menus', 'Interactive zones', 'Stress‑free planning', 'Photo backdrops', 'Party favors'],
       images: [
         'https://images.pexels.com/photos/6694500/pexels-photo-6694500.jpeg?auto=compress&cs=tinysrgb&w=600',
@@ -90,7 +91,7 @@ const AllServices = () => {
       title: 'Anniversary & Vow Renewals',
       description: 'Celebrate your journey with timeless anniversary galas, vow renewals, and surprise celebrations. From intimate candlelit dinners to grand soirées with family and friends, we design meaningful experiences that honor your love story.',
       price: 'Starting at $2,500',
-      priceIcon: 'fa-heart',
+      priceIcon: 'heart',
       tags: ['Romantic setups', 'Legacy films', 'Family-style feasts', 'Live music', 'Surprise elements', 'Custom ceremonies'],
       images: [
         'https://images.pexels.com/photos/1024993/pexels-photo-1024993.jpeg?auto=compress&cs=tinysrgb&w=600',
@@ -103,7 +104,7 @@ const AllServices = () => {
       title: 'Festival & Brand Activation',
       description: 'High-energy festivals, pop-up experiences, and brand activations that captivate audiences. We manage everything from stage design and artist booking to crowd flow, permits, and on-ground marketing. Perfect for music festivals, food fairs, and product launches.',
       price: 'Custom project pricing',
-      priceIcon: 'fa-music',
+      priceIcon: 'music',
       tags: ['Stage production', 'Artist booking', 'Permits & safety', 'Brand integration', 'Interactive zones', 'Social media walls'],
       images: [
         'https://images.pexels.com/photos/1190297/pexels-photo-1190297.jpeg?auto=compress&cs=tinysrgb&w=600',
@@ -173,7 +174,16 @@ const AllServices = () => {
               <h3 className="evs-service-name">{service.title}</h3>
               <p className="evs-service-desc">{service.description}</p>
               <div className="evs-price-chip">
-                <i className={`fas ${service.priceIcon}`}></i> {service.price}
+                {/* Replace icons with emoji */}
+                {service.priceIcon === 'ring' && '💍 '} 
+                {service.priceIcon === 'palette' && '🎨 '} 
+                {service.priceIcon === 'cake' && '🎂 '} 
+                {service.priceIcon === 'building2' && '🏢 '} 
+                {service.priceIcon === 'globe' && '🌐 '} 
+                {service.priceIcon === 'glasses' && '🥂 '} 
+                {service.priceIcon === 'heart' && '❤️ '} 
+                {service.priceIcon === 'music' && '🎵 '} 
+                {service.price}
               </div>
               <div className="evs-feature-tags">
                 {service.tags.map((tag, idx) => (
@@ -184,7 +194,7 @@ const AllServices = () => {
                 className="evs-explore-link" 
                 onClick={() => handleServiceClick(service.id, service.title)}
               >
-                Explore {service.title.split(' ')[0]} <i className="fas fa-arrow-right"></i>
+                Explore {service.title.split(' ')[0]} <span style={{marginLeft: 4, verticalAlign: 'middle'}}>→</span>
               </div>
             </div>
           </div>
@@ -211,7 +221,7 @@ const AllServices = () => {
             <p className="evs-cta-text">Share your vision — we'll craft a bespoke proposal within 48 hours.</p>
           </div>
           <button className="evs-btn-primary" onClick={handleConsultation}>
-            <i className="fas fa-calendar-alt"></i> Request consultation
+            <span style={{marginRight: 6, verticalAlign: 'middle'}}>📅</span> Request consultation
           </button>
         </div>
       </div>

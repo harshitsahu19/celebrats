@@ -1,9 +1,12 @@
 import React, { useState, useEffect } from 'react';
+import { useNavigate } from 'react-router-dom';
 import { Link, useLocation } from 'react-router-dom';
 import logo from '../assets/img/logo.jpg';
 
+// lucide-react icons removed; using emoji/text instead
 const Navbar = () => {
   const location = useLocation();
+  const navigate = useNavigate();
   const [isSticky, setIsSticky] = useState(false);
   const [showTopBar, setShowTopBar] = useState(true);
 
@@ -32,7 +35,7 @@ const Navbar = () => {
               </div>
               <div className="col-auto">
                 <button className="celeb-closeBtn" onClick={closeTopBar}>
-                  <i className="fas fa-times"></i>
+                  <span style={{fontSize: 18, lineHeight: 1}}>×</span>
                 </button>
               </div>
             </div>
@@ -54,7 +57,7 @@ const Navbar = () => {
             data-bs-toggle="offcanvas"
             data-bs-target="#celebMobileSidebar"
           >
-            <i className="fas fa-bars toogle-icon"></i>
+            <span className="toogle-icon" style={{fontSize: 20, lineHeight: 1}}>≡</span>
           </button>
 
           {/* Desktop menu */}
@@ -113,17 +116,30 @@ const Navbar = () => {
             >
               Home
             </Link>
-            <Link className="nav-link celeb-navLink mb-3" to="/aboutUs" data-bs-dismiss="offcanvas">
-              About Us
-            </Link>
             <Link
-              className={`nav-link celeb-navLink mb-3${location.pathname === '/service' ? ' celeb-active-link' : ''}`}
-              to="/service"
+              className={`nav-link celeb-navLink mb-3${location.pathname === '/aboutUs' ? ' celeb-active-link' : ''}`}
+              to="/aboutUs"
               data-bs-dismiss="offcanvas"
             >
-              Services
+              About Us
             </Link>
-            <Link className="nav-link celeb-navLink mb-3" to="/contactUs" data-bs-dismiss="offcanvas">
+            <button
+              className={`nav-link celeb-navLink mb-3 btn btn-link p-0 text-start${location.pathname === '/service' ? ' celeb-active-link' : ''}`}
+              style={{background: 'none', border: 'none', boxShadow: 'none'}}
+              onClick={() => {
+                navigate('/service');
+                // Dismiss offcanvas
+                const offcanvas = window.bootstrap?.Offcanvas.getOrCreateInstance(document.getElementById('celebMobileSidebar'));
+                if (offcanvas) offcanvas.hide();
+              }}
+            >
+              Services
+            </button>
+            <Link
+              className={`nav-link celeb-navLink mb-3${location.pathname === '/contactUs' ? ' celeb-active-link' : ''}`}
+              to="/contactUs"
+              data-bs-dismiss="offcanvas"
+            >
               Contact Us
             </Link>
             {/* Remove Our Work ScrollLink or convert to Link if needed */}

@@ -1,4 +1,5 @@
 import React from 'react';
+// lucide-react icons removed; using emoji/text instead
 
 const ContactSection = () => {
   return (
@@ -23,34 +24,34 @@ const ContactSection = () => {
 
               {/* Contact Details */}
               <div className="contact-details mb-4">
-                <p>
-                  <i className="fas fa-map-marker-alt"></i>
-                  <span>138 Lalghati Gufa Mandir Road, Bhopal, Madhya Pradesh, India</span>
-                </p>
-                <p>
-                  <i className="fas fa-envelope"></i>
-                  <span>celebratsevent@gmail.com</span>
-                </p>
-                <p>
-                  <i className="fas fa-phone"></i>
-                  <span>+91 81097 02044</span>
-                </p>
+                  <p>
+                    <span style={{marginRight: 6, verticalAlign: 'middle'}}>📍</span>
+                    <span>138 Lalghati Gufa Mandir Road, Bhopal, Madhya Pradesh, India</span>
+                  </p>
+                  <p>
+                    <span style={{marginRight: 6, verticalAlign: 'middle'}}>✉️</span>
+                    <span>celebratsevent@gmail.com</span>
+                  </p>
+                  <p>
+                    <span style={{marginRight: 6, verticalAlign: 'middle'}}>📞</span>
+                    <span>+91 81097 02044</span>
+                  </p>
               </div>
 
               {/* Social Icons */}
               <div className="social-icons">
-                <a href="https://www.facebook.com/celebrats.in" target="_blank" rel="noopener noreferrer" aria-label="Facebook" className="text-decoration-none">
-                  <i className="fab fa-facebook-f"></i>
-                </a>
-                <a href="https://www.instagram.com/celebrats.in" target="_blank" rel="noopener noreferrer" aria-label="Instagram" className="text-decoration-none">
-                  <i className="fab fa-instagram"></i>
-                </a>
-                <a href="https://youtube.com/@celebrats735" target="_blank" rel="noopener noreferrer" aria-label="YouTube" className="text-decoration-none">
-                  <i className="fab fa-youtube"></i>
-                </a>
-                <a href="#" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" className="text-decoration-none">
-                  <i className="fab fa-linkedin-in"></i>
-                </a>
+                  <a href="https://www.instagram.com/celebrats.in" target="_blank" rel="noopener noreferrer" aria-label="Instagram" className="text-decoration-none">
+                    <span style={{fontSize: 18}}>📸</span>
+                  </a>
+                  <a href="https://www.instagram.com/celebrats.in" target="_blank" rel="noopener noreferrer" aria-label="Instagram" className="text-decoration-none">
+                    <span style={{fontSize: 18}}>📸</span>
+                  </a>
+                  <a href="https://youtube.com/@celebrats735" target="_blank" rel="noopener noreferrer" aria-label="YouTube" className="text-decoration-none">
+                    <span style={{fontSize: 18}}>▶️</span>
+                  </a>
+                  <a href="#" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" className="text-decoration-none">
+                    <span style={{fontSize: 18}}>💼</span>
+                  </a>
               </div>
             </div>
           </div>

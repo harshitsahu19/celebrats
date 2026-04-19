@@ -42,23 +42,20 @@ const Footer = () => {
         {/* Column 3: Contact */}
         <div className="footer-column">
           <h4>Contact Us</h4>
-          <p><i className="fas fa-map-marker-alt"></i> 138 Lalghati Gufa Mandir Road, Bhopal</p>
-          <p><i className="fas fa-envelope"></i> celebratsevent@gmail.com</p>
-          <p><i className="fas fa-phone"></i> +91 81097 02044</p>
+          <p>138 Lalghati Gufa Mandir Road, Bhopal</p>
+          <p>celebratsevent@gmail.com</p>
+          <p>+91 81097 02044</p>
 
           {/* Social Icons */}
           <div className="footer-social">
-            <a href="https://www.facebook.com/celebrats.in" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
-              <i className="fab fa-facebook"></i>
-            </a>
             <a href="https://www.instagram.com/celebrats.in" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
-              <i className="fab fa-instagram"></i>
+              Instagram
             </a>
             <a href="https://youtube.com/@celebrats735" target="_blank" rel="noopener noreferrer" aria-label="YouTube">
-              <i className="fab fa-youtube"></i>
+              YouTube
             </a>
             <a href="#" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
-              <i className="fab fa-linkedin"></i>
+              LinkedIn
             </a>
           </div>
         </div>

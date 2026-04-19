@@ -100,7 +100,15 @@ const Service = () => {
                 <h3 className="evs-service-name">{service.name}</h3>
                 <p className="evs-service-desc">{service.desc}</p>
                 <div className="evs-price-chip">
-                  <i className={service.priceIcon}></i> {service.price}
+                  {service.priceIcon === 'ring' && <Ring size={16} style={{marginRight: 6, verticalAlign: 'middle'}} />} 
+                  {service.priceIcon === 'palette' && <Palette size={16} style={{marginRight: 6, verticalAlign: 'middle'}} />} 
+                  {service.priceIcon === 'cake' && <Cake size={16} style={{marginRight: 6, verticalAlign: 'middle'}} />} 
+                  {service.priceIcon === 'building2' && <Building2 size={16} style={{marginRight: 6, verticalAlign: 'middle'}} />} 
+                  {service.priceIcon === 'globe' && <Globe size={16} style={{marginRight: 6, verticalAlign: 'middle'}} />} 
+                  {service.priceIcon === 'glasses' && <Glasses size={16} style={{marginRight: 6, verticalAlign: 'middle'}} />} 
+                  {service.priceIcon === 'heart' && <Heart size={16} style={{marginRight: 6, verticalAlign: 'middle'}} />} 
+                  {service.priceIcon === 'music' && <Music size={16} style={{marginRight: 6, verticalAlign: 'middle'}} />} 
+                  {service.price}
                 </div>
                 <div className="evs-feature-tags">
                   {service.features && service.features.map((feature, idx) => (
@@ -113,7 +121,7 @@ const Service = () => {
                   data-service={service.id}
                   onClick={(e) => handleExploreClick(service.id, service.name, e)}
                 >
-                  {service.exploreText} <i className="fas fa-arrow-right"></i>
+                  {service.exploreText} <ArrowRight size={16} style={{marginLeft: 4, verticalAlign: 'middle'}} />
                 </a>
               </div>
             </div>
@@ -143,7 +151,7 @@ const Service = () => {
               <p className="evs-cta-text">{serviceData.cta.description}</p>
             </div>
             <button className="evs-btn-primary" onClick={handleConsultClick}>
-              <i className={serviceData.cta.buttonIcon}></i> {serviceData.cta.buttonText}
+              <Calendar size={16} style={{marginRight: 6, verticalAlign: 'middle'}} /> {serviceData.cta.buttonText}
             </button>
           </div>
         )}
