@@ -3,7 +3,7 @@ import Navbar from "../../components/Navbar";
 import Footer from "../../components/Footer";
 import HeroSlider from "./heroSlider";
 import ExperienceSection from "./ExperienceSection";
-import WeddingGallery from "./weddingGallery";
+import WeddingGallery from "./WeddingGallery";
 import WeddingServices from "./WeddingService";
 import ContactSection from "./contactUs";
 
